@@ -43,8 +43,15 @@ a {
   color: inherit;
 }
 
+ul {
+  padding-left: 1.8rem;
+}
 li {
-  list-style: none;
+  font-size: 1.4rem;
+  color: grey;
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
 }
 
 input:focus,
