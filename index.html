@@ -248,7 +248,7 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form id="contact-form" action="https://formspree.io/f/xayvqakl" class="contact__form">
+          <form id="contact-form" action="https://formspree.io/f/xayvqakl" method="post" class="contact__form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -353,6 +353,7 @@
           status.innerHTML = "Thanks for contact me!";
           form.reset()
         }).catch(error => {
+          console.log(error);
           status.innerHTML = "Oops! There was a problem submitting your form"
         });
       }
