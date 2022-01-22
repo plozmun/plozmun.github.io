@@ -325,6 +325,13 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
           font-size: 2.4rem; } }
+    .projects__row-content-subtitle {
+      font-weight: 500;
+      font-size: 2rem;
+      margin-bottom: 2rem; }
+      @media only screen and (max-width: 37.5em) {
+        .projects__row-content-subtitle {
+          font-size: 1.8rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
       color: grey;
@@ -352,6 +359,13 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .contact__form-container {
         padding: 3rem; } }
+  .contact__status {
+    width: 60%;
+    padding: 2rem 4rem;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.8rem;
+    color: #779912; }
   .contact__form-field {
     margin-bottom: 4rem; }
     @media only screen and (max-width: 37.5em) {
