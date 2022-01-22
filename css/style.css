@@ -277,7 +277,7 @@ textarea {
 
 .projects__row {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   grid-gap: 5rem;
   margin-bottom: 11rem; }
   @media only screen and (max-width: 56.25em) {
@@ -293,9 +293,13 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 100%;
+    width: 80%;
     display: block;
-    object-fit: cover; }
+    object-fit: cover;
+    margin: auto; }
+    @media only screen and (max-width: 37.5em) {
+      .projects__row-img {
+        width: 50%; } }
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
