@@ -54,7 +54,8 @@ li {
   color: grey;
   max-width: 60rem;
   line-height: 1.7;
-  margin-bottom: 1.2rem; }
+  margin-bottom: 1.2rem;
+  text-align: left; }
 
 input:focus,
 button:focus,
@@ -479,6 +480,8 @@ textarea {
       .header__link {
         padding: 3rem 1.8rem;
         font-size: 1.5rem; } }
+  .header__link-wrapper {
+    list-style: none; }
   .header__main-ham-menu-cont {
     display: none;
     width: 3rem;
