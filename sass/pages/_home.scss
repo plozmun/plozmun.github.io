@@ -7,16 +7,12 @@
     ),
     url(../../assets/svg/common-bg.svg);
   background-position: center;
-
-  height: 100vh;
-
-  min-height: 80rem;
-  max-height: 120rem;
-  position: relative;
+  min-height: 30rem;
+  padding-top: 12rem;
 
   @include respond(phone) {
-    height: unset;
-    min-height: unset;
+    min-height: 15rem;
+    padding-top: unset;
   }
 
   &__socials {
@@ -65,12 +61,7 @@
   }
 
   &__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 90rem;
-    width: 92%;
+
 
     @include respond(phone) {
       padding: 19rem 0 13rem 0;

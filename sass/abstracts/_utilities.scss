@@ -144,6 +144,19 @@
   }
 }
 
+.text-main {
+  color: grey;
+  font-size: 1.8rem;
+  width: 100%;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+
+  @include respond(phone) {
+    font-size: 2rem;
+  }
+}
+
+
 
 .d-none {
   display: none;
